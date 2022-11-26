@@ -1,0 +1,247 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: arial;
+        box-sizing: border-box;
+    }
+
+    /* nav bar start */
+    header {
+        width: 100%;
+        height: auto;
+        padding: 28px 10%;
+        justify-content: space-between;
+        background-image: linear-gradient(#000000, black);
+        display: flex;
+        align-items: center;
+        /* opacity: 80%; */
+    }
+
+    .ip-image {
+        border: 10 px solid rgb(95, 13, 13);
+    }
+
+    .head-img {
+        /* display: inline-block; */
+        height: 40px;
+        width: 40px;
+    }
+
+    .spotify {
+        width: fit-content;
+        color: aliceblue;
+        padding: 2px;
+        /* display: inline-block; */
+    }
+    
+
+    .logo {
+        padding: 0px;
+        display: flex;
+        justify-content: left;
+        
+    }
+
+    nav li {
+        padding: 0px 20px;
+        display: inline-block;
+        list-style: none;
+    }
+
+    .navbar li a {
+        font-size: 1.5rem;
+    }
+
+    .navbar li a:hover {
+        color: #00ff2a;
+
+    }
+
+    a {
+        text-decoration: none;
+        text-align: none;
+        color: white;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    /* nav bar ends */
+
+
+
+    /* first page css */
+    .first {
+        background-color: #d400ff;
+        display: flex;
+    }
+
+    .mobileimg {
+        padding-top: 6%;
+        padding-left: 12%;
+        /* border: 10px solid white; */
+    }
+
+    .mobilecontent {
+        font-size: 30px;
+        padding-top: 17%;
+        padding-left: 5%;
+        color: white;
+    }
+
+    .btnn {
+        margin-top: 5%;
+        padding: 2%;
+        border: none;
+        border-radius: 25px;
+        font-weight: bold;
+    }
+
+    .btnn:hover {
+        font-size: 15px;
+        color:red;
+    }
+
+    /* first page css end */
+
+    .icon {
+        display: inline-block;
+        margin: 20px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    h3 {
+        font-size: 30px;
+        font-weight: bold;
+        /* margin:40px; */
+        padding: 20px;
+        /* margin-left: 600px; */
+        text-align: center;
+    }
+
+    .whyspotify,
+    h2 {
+        margin: 40px;
+        text-align: center;
+        font-size: 80px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    p {
+        text-align: center;
+        width: 400px;
+        font-size: 1.8rem;
+        padding-left: 70px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .second {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+
+    .icon {
+        display: inline-block;
+        height: 300px;
+    }
+
+    .three {
+        display: block;
+
+        background: rgba(212, 0, 255, .7);
+        opacity: .7;
+        padding: 130px;
+        height: 600px;
+    }
+
+    .white {
+        color: aliceblue;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 80px
+    }
+
+    .bg {
+        background-image: url(3.jpeg);
+    }
+
+    /* second css ending */
+
+    /* third page start */
+    .dropbtn {
+        display: block;
+        margin: 10px;
+        width: 100%;
+    }
+
+    .dropdown {
+        margin-left: 20%;
+        margin-right: 20%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .dropdown p {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 1.8rem;
+        width: 100%;
+        text-align: left;
+        height: 7vh;
+        padding: 20px;
+        color: #000000;
+    }
+
+    .btn2:hover{
+        font-size: 15px;
+        color:red;
+    }
+    .btn2 {
+        display: inline-block;
+        /* height: 50px; */
+        /* margin-top: 5%; */
+        margin-left: 40vw;
+        margin-top: 100px;
+        padding: 1%;
+        border: none;
+        border-radius: 25px;
+        font-weight: bold;
+    }
+
+    /* third page end */
+
+    /* last page start */
+    .last {
+        width: 100%;
+        height: auto;
+        background: black;
+        padding: 60px;
+        padding-bottom: 200px;
+    }
+    .about div{
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+
+
+    }
+    
+    .about div a ,p {
+        text-align: left;
+        color: aliceblue;
+        padding: 20px;
+        font-size: 1.6rem;
+    }
+    .link:hover{
+        color: #00ff2a;
+        font-size: 2rem;
+    }
+    .about{
+        display: flex;
+        justify-content: space-around;
+    }
+    /* last page end */
