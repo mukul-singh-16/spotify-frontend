@@ -13,12 +13,14 @@
         justify-content: space-between;
         background-image: linear-gradient(#000000, black);
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         /* opacity: 80%; */
     }
 
     .ip-image {
         border: 10 px solid rgb(95, 13, 13);
+
     }
 
     .head-img {
@@ -53,7 +55,7 @@
     }
 
     .navbar li a:hover {
-        color: #00ff2a;
+        color: #12c7e3;
 
     }
 
@@ -74,67 +76,59 @@
     .first {
         background-color: #d400ff;
         display: flex;
+        /* height: 720px; */
+        
     }
 
     .mobileimg {
         padding-top: 6%;
         padding-left: 12%;
-        /* border: 10px solid white; */
+        padding-bottom: 0px;
+        padding-right: 0px;
+        margin-bottom: 0px;
+        /* border: 2px solid rgb(0, 0, 0); */
+    }
+    .ip-img{
+        width: 30vw;
+        height: 100%;
+        /* border: 2px solid black; */
+        padding-bottom: 0px;
+        margin-bottom: 0px;
     }
 
     .mobilecontent {
-        font-size: 30px;
+        /* border: 2px solid black; */
+        font-size: 1rem;
         padding-top: 17%;
-        padding-left: 5%;
+        padding-left: 1%;
         color: white;
     }
 
     .btnn {
-        margin-top: 5%;
+        margin-top: 10%;
         padding: 2%;
         border: none;
         border-radius: 25px;
         font-weight: bold;
+        /* background: rgb(137, 16, 207); */
     }
 
     .btnn:hover {
         font-size: 15px;
         color:red;
+        /* background: rgb(139, 15, 234); */
     }
 
     /* first page css end */
 
-    .icon {
-        display: inline-block;
-        margin: 20px;
-        margin-left: 80px;
-        margin-right: 80px;
-    }
-
-    h3 {
-        font-size: 30px;
-        font-weight: bold;
-        /* margin:40px; */
-        padding: 20px;
-        /* margin-left: 600px; */
-        text-align: center;
-    }
-
+    /* second page start */
     .whyspotify,
     h2 {
         margin: 40px;
         text-align: center;
-        font-size: 80px;
+        font-size: 60px;
         font-weight: bold;
         font-family: 'Times New Roman', Times, serif;
-    }
-
-    p {
-        text-align: center;
-        width: 400px;
-        font-size: 1.8rem;
-        padding-left: 70px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 
     .second {
@@ -143,58 +137,98 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+        /* box-sizing: border-box; */
+        margin-bottom: 40px;
 
     }
-
+    .second div{
+        /* border: 2px solid black; */
+        /* flex-wrap: wrap; */
+        width: 300px;
+    }
     .icon {
         display: inline-block;
-        height: 300px;
+        margin: 20px;
+        margin-left: 60px;
+        /* margin-right: 80px; */
+        width: 160px;
     }
 
+    h4{
+        font-size: 1.5rem;
+        /* font-weight: bold; */
+        /* margin:40px; */
+        padding-top: 15px;
+        padding-bottom: 7px;
+        /* margin-left: 600px; */
+        color: #000000;
+        text-align: center;
+    }
+
+    
+
+    .second p {
+        text-align: center;
+        /* width: 400px; */
+        font-size: 1rem;
+        /* padding-left: 70px; */
+        color: #000000;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+/* second page end */
+
+
+
+/* third page start */
     .three {
         display: block;
 
         background: rgba(212, 0, 255, .7);
         opacity: .7;
-        padding: 130px;
-        height: 600px;
+        padding-top: 3vh;
+        height: 400px;
     }
 
     .white {
         color: aliceblue;
         font-family: 'Times New Roman', Times, serif;
-        font-size: 80px
+        font-size: 60px
     }
 
     .bg {
         background-image: url(3.jpeg);
     }
 
-    /* second css ending */
+    /* third page css end */
 
-    /* third page start */
-    .dropbtn {
-        display: block;
-        margin: 10px;
-        width: 100%;
-    }
-
+    /* fourth page start */
     .dropdown {
         margin-left: 20%;
         margin-right: 20%;
         height: auto;
         padding: 20px;
+        /* border: 2px solid black; */
     }
-
+    .dropbtn {
+        display: block;
+        margin: 10px;
+        width: 100%;
+    }
     .dropdown p {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: 1.8rem;
+        font-size: 1rem;
+        padding: 5px;
         width: 100%;
         text-align: left;
-        height: 7vh;
-        padding: 20px;
         color: #000000;
     }
+
+    /* fourth page end */
+
+
+
+    /* fifth page start */
 
     .btn2:hover{
         font-size: 15px;
@@ -202,27 +236,36 @@
     }
     .btn2 {
         display: inline-block;
-        /* height: 50px; */
-        /* margin-top: 5%; */
         margin-left: 40vw;
-        margin-top: 100px;
+        margin-top: 50px;
         padding: 1%;
         border: none;
         border-radius: 25px;
         font-weight: bold;
     }
 
-    /* third page end */
+    /* fifth page end */
 
-    /* last page start */
+
+
+    /* footer page start */
     .last {
         width: 100%;
-        height: auto;
+        height: 350px;
         background: black;
         padding: 60px;
         padding-bottom: 200px;
     }
+    .logo p{
+        font-size: 2.3rem;
+    }
+    .about{
+        display: flex;
+        justify-content: space-around;
+    }
+
     .about div{
+        margin-top: 50px;
         width: 200px;
         display: flex;
         flex-direction: column;
@@ -230,18 +273,23 @@
 
     }
     
-    .about div a ,p {
-        text-align: left;
+    .about div p{
+        text-align: center;
         color: aliceblue;
-        padding: 20px;
-        font-size: 1.6rem;
+        font-size: 1.4rem;
+        padding: 10px;
+    }
+    .about div a  {
+        text-align: center;
+        /* color: aliceblue; */
+        padding: 5px;
+        font-size: 1.2rem;
     }
     .link:hover{
-        color: #00ff2a;
-        font-size: 2rem;
+        color: #12c7e3;
+        font-size: 1.3rem;
     }
-    .about{
-        display: flex;
-        justify-content: space-around;
-    }
-    /* last page end */
+    /* footer end */
+
+
+    
